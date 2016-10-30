@@ -1,0 +1,424 @@
+﻿
+
+/**********************************************************************/
+/* Définition du style du DIV d'identifiant "fond" */
+#fond{
+	margin-left:auto;
+	margin-right:auto;
+	width: 1020px;
+    height:auto px;
+}
+
+/**********************************************************************/
+/* Définition du style du DIV d'identifiant "global" */
+	
+#logo{
+	
+	width: 7%;
+	
+	display: inline-block;
+	margin-bottom : 0px;
+	margin-top: 0px;
+	margin-left: 10px;
+
+}
+
+h1{
+	font-size: 70px;
+	
+	font-family: 'Lobster', cursive;
+ 
+	width:90%;
+	height:80px;
+    display: inline-block;
+	margin-bottom : 0px;
+	margin-top: 0px;
+	
+	
+}
+
+#bandeau{
+	background-image: url("melbourne.jpg") ; 
+	background-size: 90% 180px;
+	background-repeat: no-repeat;
+	background-color: white;
+	background-position: 80% 20% ;
+	height: 90px;
+    position: fixed;
+    width: 1024px;
+	padding-top: 10px;
+	top: 0px;
+}
+
+/**********************************************************************/
+	
+/* Définition du style du DIV d'identifiant "menu_haut" */
+#menu_haut{
+	background: lightgrey;
+	position: fixed;
+	width: 1020px;
+	height: 30px;
+	font-weight: bolder;
+	color: dark;
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	font-size : 25px;
+	top: 93px;
+	
+	
+}
+
+
+/* Spécialisation du style des liens "menu_haut" */
+#menu_haut  a
+{
+	color : gray;
+	text-decoration: none;
+	padding-left : 80px;
+	padding-right : 80px;
+}
+#menu_haut  a:visited{
+}
+#menu_haut  a:hover {
+	color: dark;
+	border: solid 2px dark;
+	padding-left: 1.8em;
+	padding-right: 1.8em;
+	margin: 0.2em;
+	
+	
+	
+}
+#menu_haut  a:hover {
+	color: white;
+	text-decoration: none;
+	background-color: lightgrey;
+}
+
+
+/**********************************************************************/
+
+/* Définition du style du DIV d'identifiant "menu_gauche" */
+#menu_gauche{
+	/*display : inline-block;*/
+	font-family: 'Lobster', cursive;
+	font-size : 120%;
+	background-image:linear-gradient(to bottom, lightgrey, white);
+	width:200px;
+	height: 500px;
+	float:left;
+	position: fixed;
+	top: 123px;
+}
+ 
+/* Spécialisation du style des liens "menu_gauche" */
+#menu_gauche  a
+{
+	color : gray;
+	text-decoration: none;
+	padding-left: 10px;
+}
+#menu_gauche  a:visited{
+}
+#menu_gauche  a:hover {
+	color: dark;
+	border: solid 2px dark;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	margin: 0.2em;
+}
+#menu_gauche  a:hover {
+	color: white;
+	text-decoration: none;
+	background-color: lightgrey;
+	padding-left: 5px;
+	}
+	
+	
+/**********************************************************************/
+/* Définition du style du DIV d'identifiant "contenu" (bloc contenant les articles*/
+
+#contenu{
+	
+	width: 800px;
+	height: 400px;
+	float:left;
+	margin-left: 3.6px;
+	/*display: block;*/
+	
+	 
+
+}
+
+
+/* Définition du style du DIV d'identifiant "Contenu" (contenu généré par la rquête (ensemble d'articles))  */
+#texte{
+
+	background-color: white ;
+	 /* Ils sont justifiés */
+	font-size: 18px;
+	color: dark;
+	border-right: dotted 1px lightgrey; 
+	padding-left: 0.5em;
+	padding-top: 0px;
+	
+	display: inline-block;
+}
+
+
+
+
+ 
+/**********************************************************************/
+/* Styles pour le resultat de la requette*/
+
+#vignette{ /* Div contenant un article individuellement*/
+	width: 770px;
+	margin-left: 220px;
+    margin-top: 120px;	
+	border:2px black solid;
+    box-shadow: 0px 4px 4px #1c1a19;
+	margin-bottom: 70px;
+}
+
+#entete_article{
+	
+	
+}
+
+
+#banniere_image
+{
+	height: 200px;
+	width: 770px;
+	display: block;
+}
+
+#banniere_description
+{
+	display: inline-block;
+    width: 770px;
+    height: 25px;
+    padding-top: 10px;
+    background-color: rgb(24,24,24); /* Pour les anciens navigateurs */
+    background-color: rgba(24,24,24,0.8);
+    color: white;
+    font-size: 20px;
+	text-transform: none;
+	text-indent: 50px;
+	border:2px black solid;
+}
+
+#contenu_article {
+	padding: 30px;
+}
+#contenu_article a{
+	margin-left : 60px;
+	
+}
+
+#contenu_article table
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+	margin-left : 60px;
+}
+#contenu_article td
+{
+    border: 2px solid black;
+}
+
+#contenu_article video{
+	margin-left : 60px;
+	
+}
+
+#info_article {
+	float: right;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	
+}  
+
+
+/**********************************************************************/
+
+/* Définition du style du DIV d'identifiant "pied" */
+#pied_page{
+	position: fixed;
+	bottom : 0px;
+	width: 1020px;
+	height: 50px;
+	background-image:linear-gradient(to left, lightgrey, white);
+	/*background: lightgrey;*/ 
+	margin-top : 5px;
+}
+
+#decription_pied{
+	width: 70%;
+	height: 50px;
+	display:inline-block;
+	
+}
+
+#decription_pied a{
+	font-family: 'Lobster', cursive;
+	display:inline-block;
+	font-size: 20px;
+	
+	width: 20%;
+	height: 50px;
+	margin-top: 12px;
+	margin-left: 10px;
+}	
+
+#decription_pied p{
+	font-family: 'Lobster', cursive;
+	display:inline-block;
+	font-size: 20px;
+	margin-top: 12px;
+	
+	float : center;
+	width: 47%;
+	height: 50px;
+}
+
+/*logos des reseaux sociaux*/
+#social {
+	width: 30%;
+	display:inline-block;
+	float : right;
+}
+#social a{
+	display:inline-block;
+	
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+}
+
+/*mise en page du fomulaire d'inscription*/	
+#vignette h1{
+	font-family: 'Lobster', cursive;
+	font-size: 40px;
+	margin-left: 20px;
+}
+
+#contenu_formulaire p {
+	margin-left: 40px;
+	font-family: 'Lobster', cursive;
+	font-size: 20px;
+	display: inline-block;
+	width: 680px;
+	margin-bottom: 10px;
+}	
+
+#contenu_formulaire label {
+	font-family: 'Lobster', cursive;
+	font-size: 20px;
+	display: inline-block;
+	
+
+}
+
+#contenu_formulaire input {
+	font-family: 'Geomanist',sans-serif, cursive;
+	font-size: 18px;
+	border-radius: 4px;
+	background-color: darkgrey; 
+	color: #ffffff;
+	border: medium none;
+	width: 600px;
+	height: 25px;
+	display: block;
+	padding-left: 15px;
+}
+
+#sexeAge {
+	display: block;
+	margin-left: 40px;
+	width: 680px;
+}
+
+#sexeAge h2{
+	display: inline-block;
+	margin-left: 0px;
+	font-size: 20px;
+	width: 80px;
+	float: left;
+	font-family: 'Lobster';
+}
+
+#sexeAge p{
+	display: inline-block;
+	float: left;
+	margin-left: 0px;
+	width: 290px;
+}
+
+#sexeAge label{
+	display: inline-block;
+	margin-left: 0px;
+	width: 100px;
+}
+
+#sexeAge input{
+	display: inline-block;
+	margin-left: 0px;
+	width: 116px;
+}
+
+
+/*	
+	.form_col {
+	display: inline-block;
+	margin-right: 15px;
+	padding: 3px 0px;
+	width: 150px;
+	min-height: 1px;
+	text-align: right;
+	}
+	
+	input {
+	padding: 2px;
+	border: 1px solid #CCC;
+	border-radius: 2px;
+	outline: none; /* Retire les bordures appliquées par certains navigateurs (Chrome notamment) lors du focus des éléments <input> /
+	}
+	
+	input:focus {
+	border-color: rgba(82, 168, 236, 0.75);
+	-moz-box-shadow: 0 0 8px rgba(82, 168, 236, 0.5);
+	-webkit-box-shadow: 0 0 8px rgba(82, 168, 236, 0.5);
+	box-shadow: 0 0 8px rgba(82, 168, 236, 0.5);
+	}
+	
+	.correct {
+	border-color: rgba(68, 191, 68, 0.75);
+	}
+	
+	.correct:focus {
+	border-color: rgba(68, 191, 68, 0.75);
+	-moz-box-shadow: 0 0 8px rgba(68, 191, 68, 0.5);
+	-webkit-box-shadow: 0 0 8px rgba(68, 191, 68, 0.5);
+	box-shadow: 0 0 8px rgba(68, 191, 68, 0.5);
+	}
+	
+	.incorrect {
+	border-color: rgba(191, 68, 68, 0.75);
+	}
+	
+	.incorrect:focus {
+	border-color: rgba(191, 68, 68, 0.75);
+	-moz-box-shadow: 0 0 8px rgba(191, 68, 68, 0.5);
+	-webkit-box-shadow: 0 0 8px rgba(191, 68, 68, 0.5);
+	box-shadow: 0 0 8px rgba(191, 68, 68, 0.5);
+	}
+	
+	.tooltip {
+	display: inline-block;
+	margin-left: 20px;
+	padding: 2px 4px;
+	box-shadow: 0px 4px 4px #1c1a19;
+	background-color: lightgrey;
+	border-radius: 4px;
+	}*/
